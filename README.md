@@ -152,13 +152,13 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
 
 
 
-At a glance you would see the store type with the highest income (convenience store). Its very important to find out why before making conclusions.
+At a glance you would see the store type with the highest income (convenience store). Its very important to find out why, before drawing conclusions.
 
 <img width="886" alt="pivot table volume with products talent prt" src="https://github.com/user-attachments/assets/12f3bda5-90a6-42ce-b266-83643daa201b">
 
 
 
-By adding products to the report, it shows convenience stote made more sales, because they have more products in their store.
+By adding products to the report, it shows convenience store made more sales, because they had more products in their store.
 This is now a good place to start making decisions and asking the right questions.
 
 ### Customization and Features
