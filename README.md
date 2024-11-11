@@ -62,7 +62,8 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
    ```
    Path: Data Tab â†’ Text to Columns
    ```
-   
+   <img width="822" alt="text to column excel" src="https://github.com/user-attachments/assets/3a936bdd-9591-4571-ae8a-0fb2fd342774">
+
 
 2. **Common Uses**
    - Splitting full names into first and last names
@@ -147,6 +148,12 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
    - Drag Categories to Rows area
    - Drag Volume to Values area
    ```
+<img width="545" alt="Pivot table 1 volume" src="https://github.com/user-attachments/assets/fbc9d67c-1b61-4dba-bb40-f4f63f0152b4">
+At a glance you would see the store type with the highest income (convenience store). Its very important to find out why before making conclusions.
+
+<img width="886" alt="pivot table volume with products talent prt" src="https://github.com/user-attachments/assets/12f3bda5-90a6-42ce-b266-83643daa201b">
+By adding products to the report, it shows convenience stote made more sales, because they have more products in their store.
+This is now a good place to start making decisions and asking the right questions.
 
 ### Customization and Features
 1. **Value Settings**
@@ -190,7 +197,6 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
    - Shift + Space: Select row
    ```
 
-## Data Management
 
 ### Error Prevention
 1. **Semantic Errors**
@@ -198,7 +204,6 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
    - Use appropriate data types
    - Validate formulas before use
 
-   ```
 
 
 
