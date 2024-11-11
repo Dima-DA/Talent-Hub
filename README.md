@@ -138,7 +138,7 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
 ### Creation Rules
 1. **Basic Structure**
    - Highlight complete dataset
-   - Insert â†’ PivotTable
+   - Insert PivotTable
    - Select destination
 
 2. **Example Configuration**
@@ -149,9 +149,15 @@ class Activity: Typed into cells, Converted text to clomuns, Changed text and ch
    - Drag Volume to Values area
    ```
 <img width="545" alt="Pivot table 1 volume" src="https://github.com/user-attachments/assets/fbc9d67c-1b61-4dba-bb40-f4f63f0152b4">
+
+
+
 At a glance you would see the store type with the highest income (convenience store). Its very important to find out why before making conclusions.
 
 <img width="886" alt="pivot table volume with products talent prt" src="https://github.com/user-attachments/assets/12f3bda5-90a6-42ce-b266-83643daa201b">
+
+
+
 By adding products to the report, it shows convenience stote made more sales, because they have more products in their store.
 This is now a good place to start making decisions and asking the right questions.
 
