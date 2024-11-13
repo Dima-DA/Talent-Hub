@@ -214,12 +214,11 @@ This is now a good place to start making decisions and asking the right question
 ## Excel Class - November 13, 2024
 ---
 
-### Importance of Printing a Specific Area
+### Printing a Specific Area
 When printing from Excel, the default behavior is to print the entire worksheet, which may not always be desirable. Printing the entire document can lead to wasted paper and ink, especially if you only need to print a specific section of the data. By setting a print area, you can ensure that only the relevant information is printed, making the process more efficient and cost-effective.
 
 
-**Printing a Specific Screen Area
-**
+**Printing a Specific Screen Area**
 -Highlight the area you want to print
 -Go to the Page Layout tab
 -Click on Print Area and select Set Print Area
@@ -254,7 +253,7 @@ For example, in our Excel class, we might have a worksheet that contains a list 
 In our Excel class, we discussed how macros can help us automate repetitive tasks, such as formatting our worksheets. For instance, let's say we have a standard formatting that we want to apply to all our class worksheets:
 
 1. Set the font to Arial, size 10
-2. Reveal the gridlines
+2. Remove the gridlines
 3. Adjust the column widths to 10
 
 Instead of manually performing these steps every time we create a new worksheet, we can record a macro to automate the process. Here's how we did it:
