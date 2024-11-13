@@ -211,5 +211,62 @@ This is now a good place to start making decisions and asking the right question
    - Validate formulas before use
 
 
+## Excel Class - November 13, 2024
+---
+
+### Importance of Printing a Specific Area
+When printing from Excel, the default behavior is to print the entire worksheet, which may not always be desirable. Printing the entire document can lead to wasted paper and ink, especially if you only need to print a specific section of the data. By setting a print area, you can ensure that only the relevant information is printed, making the process more efficient and cost-effective.
+
+
+**Printing a Specific Screen Area
+**
+-Highlight the area you want to print
+-Go to the Page Layout tab
+-Click on Print Area and select Set Print Area
+-Press Ctrl+P to print the selected area
+-After printing, go back to Print Area and select Clear Print Area
+
+
+
+### Hyperlinks
+Hyperlinks in Excel allow you to create clickable links to various types of content, such as:
+
+1. **Images**: You can link an image to another file, a website, or even an email address. This is useful when you want to quickly access related visual information.
+
+2. **Documents**: Linking a cell or text to another Excel file, Word document, or any other type of file can simplify navigation and access to important resources.
+
+3. **Email Addresses**: Creating a hyperlink to an email address allows users to quickly compose a new message by simply clicking on the link.
+
+4. **Websites**: Linking text or an object to a website URL enables users to quickly access online resources directly from your Excel workbook.
+
+For example, in our Excel class, we might have a worksheet that contains a list of resources. By adding hyperlinks to relevant websites, documents, or email addresses, we can make it easier for our classmates to access this information without having to manually type or search for the links.
+
+
+**To create a hyperlink:**
+
+-Select the text or object you want to turn into a hyperlink
+-Right-click and select Hyperlink...
+-Enter the destination (e.g. file path, email address, URL)
+-Click OK
+-Now when you click the hyperlinked text/object, it will take you to the linked content
+
+### Macros: Automating Repetitive Tasks
+In our Excel class, we discussed how macros can help us automate repetitive tasks, such as formatting our worksheets. For instance, let's say we have a standard formatting that we want to apply to all our class worksheets:
+
+1. Set the font to Arial, size 10
+2. Reveal the gridlines
+3. Adjust the column widths to 10
+
+Instead of manually performing these steps every time we create a new worksheet, we can record a macro to automate the process. Here's how we did it:
+
+1. Opened the **Developer** tab
+2. Clicked **Record Macro**
+3. Named the macro "Formatting" and assigned the shortcut key `Ctrl+M`
+4. Performed the formatting steps
+5. Clicked **Stop Recording**
+
+Now, whenever we need to apply this standard formatting to a new worksheet, we can simply press `Ctrl+M`, and the macro will automatically execute the formatting steps for us.
+
+Using macros in this way can save us a significant amount of time and effort, allowing us to focus on the more important aspects of our work rather than repetitive, manual tasks.
 
 
