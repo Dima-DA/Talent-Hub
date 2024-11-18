@@ -269,3 +269,82 @@ Now, whenever we need to apply this standard formatting to a new worksheet, we c
 Using macros in this way can save us a significant amount of time and effort, allowing us to focus on the more important aspects of our work rather than repetitive, manual tasks.
 
 
+#  EXCEL Functions (11/18/2024)
+
+## Key Concepts:
+
+1. **Mathematical Formula**: A function is a mathematical formula designed to perform specific calculations in Excel.
+
+2. **Calculations**: Functions automate calculations, allowing us to perform them more efficiently and precisely.
+
+3. **Speed**: Functions enable faster calculations, which is especially useful in a fast-paced work environment.
+
+4. **Common Functions**: Examples include `SUM`, `AVERAGE`, `COUNT`, `COUNTIF`, `SUMIF`, and conditional statements like `IF`.
+
+## Detailed Explanations:
+
+1. **Linear Functions**: These are simple, straightforward functions like `SUM`.
+
+2. **AVERAGE vs. Mean**: While `AVERAGE` calculates the mean, the mean has limitations and can't be fully trusted or relied upon in data analysis.
+
+3. **Skewness**: To address this, introduce skewness using `MODE` and `MEDIAN`. Skewness refers to the assymetry or lack of symmetry in a data distribution. Positive skewness indicates the right tail of the distribution is longer, while negative skewness indicates the left tail is longer. The difference between the mean and median indicates the type of skewness.
+
+4. **Types of Skewness**: There are three main types of skewness:
+   - Positive Skewness: The mean is greater than the median, which is greater than the mode. This indicates the distribution has a longer right tail.
+   - Negative Skewness: The mean is less than the median, which is less than the mode. This indicates the distribution has a longer left tail. 
+   - Zero Skewness: The mean, median, and mode are approximately equal, indicating a symmetric distribution.
+
+5. **Outliers**: Skewness can also indicate the presence of outliers in the data, which are data points that are significantly different from the rest of the distribution.
+
+6. **COUNT vs. COUNTA**: `COUNT` can only count numerical data, while `COUNTA` counts both numerical and non-numerical data.
+
+7. **Conditional Statements**: Functions like `IF` allow the computer to act based on specific criteria (one condition at a time).
+
+8. **Boolean Logic**: Excel uses Boolean logic (true/false) to evaluate these conditional statements.
+
+9. **Parameterized Functions**: All Excel functions are "parameterized," meaning they require input parameters. Understanding this helps you use functions effectively.
+
+10. **Opening Parameters**: To view a function's parameters, simply open the function by typing the function name followed by an open parenthesis. The parameters will then be displayed.
+
+11. **Parameter Range**: Instead of manually typing in cell references, you can select a range of cells using keyboard shortcuts like `Control+Shift+Arrow`.
+
+# Functions Used Today
+
+1. `IF`: Used to categorize individuals as "Adult" or "Teenager" based on their age.
+2. `SUMIFS`: Used to perform a sum calculation across multiple criteria.
+
+- `=CONCATENATE(FirstName, " ", LastName)`: Concatenates the first and last name into a full name.
+- `=IF([@Age]>25,"Adult","Teenager")`: Checks the age and returns "Adult" or "Teenager" accordingly.
+- `=SUMIFS(I4:I15,C4:C15,C15,D4:D15,D15,E4:E15,E15,F4:F15,F15,G4:G15,G15,H4:H15,H15)`: Performs a sum calculation across multiple criteria.
+
+<img width="948" alt="If function to Categorize age" src="https://github.com/user-attachments/assets/557a85f5-ab07-4de1-94e6-22fab83bb311">
+
+
+=IF([@Age]>25,"Adult","Teenager")
+This formula checks the value in the "Age" column for each row. If the age is greater than 25, it returns the text "Adult", otherwise it returns the text "Teenager".
+The key components are:
+
+[@Age] - This refers to the "Age" value for the current row.
+25 - This is the comparison to check if the age is greater than 25.
+
+
+"Adult" - The text value to return if the age is greater than 25.
+"Teenager" - The text value to return if the age is 25 or less.
+
+This formula can be used to categorize the individuals in the data set based on their age, separating them into "Adult" and "Teenager" groups.
+
+
+
+ <img width="952" alt="excel functions" src="https://github.com/user-attachments/assets/907e2f60-2be5-4afb-bf6e-30d8b38e44a4">
+
+
+1. `MIN`: Returns the smallest numeric value from a range of cells.
+2. `MAX`: Returns the largest numeric value from a range of cells.
+3. `COUNTA`: Counts the number of cells that contain any data, including numbers, text, and logical values.
+4. `COUNTIFS`: Counts the number of cells that meet multiple criteria.
+5. `UNIQUE`: Returns a range containing the unique values from a specified range.
+6. `COUNTIF`: Counts the number of cells that meet a single criterion.
+
+
+
+
