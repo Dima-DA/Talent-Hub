@@ -348,3 +348,81 @@ This formula can be used to categorize the individuals in the data set based on 
 
 
 
+# Excel Class:Data Preprocessing and Missing Values Analysis
+*Date: November 20, 2024*
+
+## Class Theory Notes
+
+### Missing Values Treatment Guidelines
+1. Basic Decision Rules:
+   - If missing data < 5%: Drop the data
+   - If missing data => 5%: Fill with mean value
+   - Note: Extrapolation provides more accurate results
+
+**General steps:**
+Check all the data set (control A) Find and select blank 
+Then from the general search, identify missing values in colmns and do column by column search to fill missing vales.*
+
+### Key Concepts
+1. **Converging**
+   - Definition: Process of bringing together extrapolated values to get close ranges
+   - Purpose: To obtain the closest possible numbers during exploration
+   - Application: Used when dealing with multiple extrapolated values
+	- Extrapolation: Preferred for more accurate results when filling missing values
+
+
+2. **Finding Missing Values in Excel**
+   - Step 1: Select all cells
+     * Use Ctrl + A for precise table area selection
+     * Avoid selecting data outside the relevant range
+   - Step 2: Navigate to Home â†’ Editing â†’ Find & Select â†’ Blanks â†’ OK
+   - Result: All blank cells will be selected
+
+3. **Practical Tips**
+   - To highlight missing values:
+     * Fill a cell with yellow color
+     * Select blanks using Find & Select
+     * Use Ctrl + V to paste yellow highlighting
+   - To fill missing values:
+     * Calculate mean value
+     * Select blanks
+     * Use Ctrl + V to fill all blanks
+
+   - Quick data movement:
+To move data without copy/paste:
+     * Hover until four-directional arrow appears
+     * Click and drag to move data
+
+## Class Practical Session 
+
+
+<img width="773" alt="missing values" src="https://github.com/user-attachments/assets/025634c1-ce76-46fa-8df8-09893ce1b20a">
+
+## Missing Values Treatment
+### Initial Analysis
+- **Focus Area**: Volume column
+- **Treatment Method**: Mean imputation, (=Average)
+- **Mean Value Used**: 1,435.865
+- **Selection Criteria**: Values were missing in specific records
+
+- **Important tip for copying MEAN value to paste on blank celss**
+- After calculating mean value, copy before find and select, blank, ok and control V.
+- But note copying mean value and pasting will return an error (REF) oR a wrong value, different from the calculated value
+- This is because copying the mean from calculated means copying the formular as well, which could change the value.
+- To solve this problem, use copy and paste special into another cell (paste special option: values)
+- Now values will be pasted, not formular
+- This is the one you should copy to perfrom FIND AND SELECT
+
+### Process Steps
+1. Data Selection
+   - Selected entire dataset using Ctrl+A
+   - Focused on Volume column
+
+2. Missing Values Identification
+   - Used Find & Select â†’ Blanks
+   - Highlighted missing values in yellow for visibility
+   
+3. Value Imputation
+   - Calculated mean value: 1,435.865
+   - Applied mean imputation to missing values
+   - Verified consistency after imputation
