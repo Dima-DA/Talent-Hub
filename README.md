@@ -426,3 +426,67 @@ To move data without copy/paste:
    - Calculated mean value: 1,435.865
    - Applied mean imputation to missing values
    - Verified consistency after imputation
+  
+
+## Class: Excel Functions and Data Validation
+Date: November 25, 2024
+
+1. Lookup Functions
+- VLOOKUP: Vertical column search
+- HLOOKUP: Horizontal row search
+
+2. Referencing Techniques
+- Absolute Referencing ($A$1): Locks cell reference
+- Array Reference: Multiple cell selection
+- Range Reference: Continuous cell group
+
+3. Data Validation Overview
+A. Definition
+- Restricts cell data entry
+- Ensures data accuracy
+- Prevents invalid inputs
+
+B. Implementation Steps
+- Select target cells
+- Navigate to Data > Data Validation
+- Choose validation criteria
+- Set input/error messages
+- Define allowed values
+
+C. Validation Types
+- Whole Number
+- Decimal
+- List
+- Date Range
+- Text Length
+- Custom Formula
+
+D. Error Signal Meanings
+- Stop (Red X): Blocks entry
+- Warning (Yellow !): Cautions user
+- Information: Provides guidance
+
+E. Limitations
+- Ineffective on:
+  * Unlinked cells
+  * Protected sheet cells
+  * Imported/pasted data
+
+4. Functions Covered today (Practical)
+- IF ERROR: Error handling
+- ROUNDUP: Rounds up numbers
+- Date Functions:
+  * DATE
+  * YEAR
+  * DAY
+  * MONTH
+  * QUARTILE
+- Text Concatenation (&)
+- List Validation
+- Validation for:
+  * Date Ranges
+  * Whole Numbers
+  * Decimals
+  * Text Length
+
+
